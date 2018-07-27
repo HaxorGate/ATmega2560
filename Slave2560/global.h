@@ -16,7 +16,6 @@
 #include <inttypes.h>
 #include <stdlib.h>
 #include <avr/sleep.h>
-#include <avr/delay.h>
 
 #include "time.h"
 #include "twi.h"

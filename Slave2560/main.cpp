@@ -5,8 +5,7 @@
  * Author : ETAStaff
  */
 
-
-
+#include "global.h"
 int main(void) {
 	while (1) {
 	}
