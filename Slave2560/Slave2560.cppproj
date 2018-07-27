@@ -167,10 +167,19 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="analog.cpp">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="analog.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="button.cpp">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="button.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="digital.cpp">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="digital.h">
@@ -179,16 +188,31 @@
     <Compile Include="global.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="led.cpp">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="led.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.cpp">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="string.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="time.cpp">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="time.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="twi.cpp">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="twi.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="usart.cpp">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="usart.h">
